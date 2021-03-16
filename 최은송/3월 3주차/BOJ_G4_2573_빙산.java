@@ -20,7 +20,6 @@ public class BOJ_G4_2573_빙산 {
 	
 	public static void main(String[] args) throws IOException{
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		in = new BufferedReader(new StringReader(input));
 		
 		StringTokenizer st = new StringTokenizer(in.readLine(), " ");
 		R = Integer.parseInt(st.nextToken());
@@ -123,11 +122,4 @@ public class BOJ_G4_2573_빙산 {
 		for(int i=1; i<R-1; i++)
 			System.arraycopy(temp[i], 0, map[i], 0, C);
 	}
-	
-	static String input = "5 7\n" + 
-			"0 0 0 0 0 0 0\n" + 
-			"0 2 4 5 3 0 0\n" + 
-			"0 3 0 2 5 2 0\n" + 
-			"0 7 6 2 4 0 0\n" + 
-			"0 0 0 0 0 0 0";
 }

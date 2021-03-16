@@ -11,7 +11,6 @@ public class BOJ_G4_5052_전화번호목록 {
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		in = new BufferedReader(new StringReader(input));
 		int T = Integer.parseInt(in.readLine());
 		
 		for(int t=0; t<T; t++) {
@@ -41,17 +40,6 @@ public class BOJ_G4_5052_전화번호목록 {
 	      }
 
 	}
-	static String input = "2\n" + 
-			"3\n" + 
-			"911\n" + 
-			"97625999\n" + 
-			"91125426\n" + 
-			"5\n" + 
-			"113\n" + 
-			"12340\n" + 
-			"123440\n" + 
-			"12345\n" + 
-			"98346";
 }
 
 /*
