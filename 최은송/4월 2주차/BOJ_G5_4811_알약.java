@@ -12,7 +12,6 @@ public class BOJ_G5_4811_알약 {
 			System.out.println(find(N, 0));
 		}
 	}
-
 	static long find(int one, int half) {
 		if(dp[one][half] != 0)	return dp[one][half];
 		// 1개 알약만 남은 경우 

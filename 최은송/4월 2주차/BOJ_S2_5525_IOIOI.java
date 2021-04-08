@@ -23,7 +23,6 @@ public class BOJ_S2_5525_IOIOI {
 		
 		for(int i=0; i<slen-2; i++) {
 			String sub = s.substring(i, i+3);
-//			System.out.printf("i: %d, sub:%s\n",i,sub);
 			if(sub.equals("IOI")) {
 				pn++;
 				if(pn == N) {
@@ -37,9 +36,3 @@ public class BOJ_S2_5525_IOIOI {
 		return cnt;
 	}
 }
-
-/*
-1
-13
-OOIOIOIOIIOII
-*/
