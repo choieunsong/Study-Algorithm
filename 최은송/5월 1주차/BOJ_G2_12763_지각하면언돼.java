@@ -31,10 +31,8 @@ public class BOJ_G2_12763_지각하면언돼 {
 		visited = new boolean[N+1];
 		visited[1] = true;
 		dfs(1, 0, 0);
-		if(min == Integer.MAX_VALUE)
-			System.out.println(-1);
-		else
-			System.out.println(min);
+		if(min == Integer.MAX_VALUE)	System.out.println(-1);
+		else		System.out.println(min);
 	}
 	
 	static void dfs(int n, int time, int money) {

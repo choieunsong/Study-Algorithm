@@ -12,7 +12,6 @@ public class BOJ_G3_1256_사전 {
 	static String ans = "";
 	public static void main(String[] args) throws IOException{
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-//		BufferedReader in = new BufferedReader(new StringReader(input));
 		StringTokenizer st = new StringTokenizer(in.readLine()); 
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
