@@ -66,7 +66,3 @@ public class BOJ_G2_1561_놀이공원 {
         return cnt;
     }
 }
-/*
-3 2
-7 2
-* */
