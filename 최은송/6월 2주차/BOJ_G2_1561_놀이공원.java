@@ -32,22 +32,22 @@ public class BOJ_G2_1561_놀이공원 {
         while(left <= right){
             mid = (left + right) / 2;
             long cnt = find(mid);
-            System.out.printf("mid: %d, cnt: %d, mid+1 cnt: %d\n", mid, cnt, find(mid+1));
+            // System.out.printf("mid: %d, cnt: %d, mid+1 cnt: %d\n", mid, cnt, find(mid+1));
 
             if(cnt <= N && N < find(mid+1)){
-                System.out.printf("gotcha! mid: %d\n", mid);
+                // System.out.printf("gotcha! mid: %d\n", mid);
                 break;
             } else if(cnt > N){
                 right = mid + 1;
-                System.out.printf("right+1 == left: %d, right: %d\n", left, right);
+                // System.out.printf("right+1 == left: %d, right: %d\n", left, right);
             } else{
                 left = mid - 1;
-                System.out.printf("left-1 == left: %d, right: %d\n", left, right);
+                // System.out.printf("left-1 == left: %d, right: %d\n", left, right);
             }
         }
-        System.out.printf("--mid: %d, cnt: %d\n", mid, find(mid));
+        // System.out.printf("--mid: %d, cnt: %d\n", mid, find(mid));
         long prev = find(mid);
-        System.out.printf("prev: %d\n", prev);
+        // System.out.printf("prev: %d\n", prev);
         int ret = 0;
         for(int i = 0, idx = 0; i < M; i++){
             if((mid % rides[i]) == 0)  idx++;

@@ -67,3 +67,6 @@ public class BOJ_G4_1963_소수경로{
         return ret;
     }
 }
+/*
+
+**/
