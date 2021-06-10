@@ -16,7 +16,7 @@ public class BOJ_G4_1963_소수경로{
             int start = Integer.parseInt(st.nextToken());
             int end = Integer.parseInt(st.nextToken());
             if(end - start == 0) {
-                System.out.println(0);
+                System.out.println("0");
             } else{
                 int ans = bfs(start, end);
                 System.out.printf("%s\n", ans == -1 ? "Impossible" : Integer.toString(ans));
